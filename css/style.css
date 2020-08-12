@@ -1,0 +1,83 @@
+* {
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Red Rose", cursive;
+  font-weight: 400;
+  color: #003b63;
+  max-width: 690px;
+  user-select: none;
+}
+
+body {
+  background-color: #e2f7ffd5;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  align-self: center;
+  border: 2px solid #24587a;
+  padding: 5px;
+  background-color: #65a6d1;
+}
+
+.game-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.field {
+  position: relative;
+  background-color: rgb(255, 253, 158);
+  border: 2px solid #0a67a3;
+  width: 150px;
+  height: 150px;
+  line-height: 140px;
+  text-align: center;
+  font-size: 90px;
+}
+
+.sidebar {
+  align-items: flex-start;
+  display: grid;
+  grid-template-rows: 10% 10% 10% 20%;
+  border: 2px solid #24587a;
+  padding: 5px 5px;
+  height: 477px;
+  width: 150px;
+}
+
+.field:hover {
+  background-color: #ffcd40;
+}
+
+.counter span {
+  font-family: "Lemonada", cursive;
+}
+
+.button {
+  font-family: "Lemonada", cursive;
+  background-color: #ffda73;
+  padding: 4px;
+}
+
+.button:hover {
+  background-color: #ffbc00;
+}
+
+#winner {
+  font-size: large;
+  font-weight: bold;
+}
+
+.player {
+  font-family: "Lemonada", cursive;
+  padding: 5px;
+}
